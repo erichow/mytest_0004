@@ -107,8 +107,9 @@
       "pre-commit": "lint-staged"
     }
   },
-  "publicConfig": {
-    "access": "public"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
